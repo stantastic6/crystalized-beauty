@@ -11,7 +11,7 @@ import logo from '../../assets/images/logo.png';
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
-    marginBottom: 110,
+    marginBottom: 90,
   },
   appbar: {
     height: 90,
@@ -43,6 +43,9 @@ const useStyles = makeStyles(theme => ({
   navListItem: {
     float: 'left',
     width: 'auto',
+  },
+  navLink: {
+    textDecoration: 'none',
   },
 }));
 
@@ -78,8 +81,16 @@ const Header: React.FC = () => {
 
           <Grid container spacing={4} className={classes.navGrid} justify="flex-end">
             <List className={classes.navList}>
-              <ListItem className={classes.navListItem}>Home</ListItem>
-              <ListItem className={classes.navListItem}>Our Story</ListItem>
+              <ListItem className={classes.navListItem}>
+                <a href="/" className={classes.navLink}>
+                  Home
+                </a>
+              </ListItem>
+              <ListItem className={classes.navListItem}>
+                <a href="/about" className={classes.navLink}>
+                  Our Story
+                </a>
+              </ListItem>
               <ListItem className={classes.navListItem}>Giving Back</ListItem>
               <ListItem className={classes.navListItem}>Testimonals</ListItem>
             </List>

@@ -1,71 +1,76 @@
 import React from 'react';
-import Header from '../components/shared/Header';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
+const useStyles = makeStyles(theme => ({
+  container: {
+    paddingTop: 10,
+  },
+}));
+
 const Home: React.FC = () => {
+  const classes = useStyles();
+
   return (
-    <div>
-      <Header />
-      <Container maxWidth={false}>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-        <div>Home</div>
-      </Container>
-    </div>
+    <Container maxWidth={false} className={classes.container}>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+      <div>Home</div>
+    </Container>
   );
 };
 
