@@ -7,6 +7,7 @@ import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import logo from '../../assets/images/logo.png';
+import styled from 'styled-components';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -23,6 +24,8 @@ const useStyles = makeStyles(theme => ({
   },
   fixedAppBar: {
     position: 'fixed',
+    backgroundColor: '#f8f8f8',
+    color: 'black',
     transform: 'translateY(0px)',
     transition: 'transform 500ms ease, background 500ms ease',
     '-webkit-transition': 'transform 500ms ease, background 500ms ease',
@@ -48,6 +51,18 @@ const useStyles = makeStyles(theme => ({
     textDecoration: 'none',
   },
 }));
+
+const NavLink: React.FC = styled(ListItem)`
+  float: left;
+  width: auto;
+
+  a {
+    :visited {
+      text-decoration: none;
+      color: black;
+    }
+  }
+`;
 
 const Header: React.FC = () => {
   useEffect(() => {
@@ -81,18 +96,18 @@ const Header: React.FC = () => {
 
           <Grid container spacing={4} className={classes.navGrid} justify="flex-end">
             <List className={classes.navList}>
-              <ListItem className={classes.navListItem}>
+              <NavLink>
                 <a href="/" className={classes.navLink}>
                   Home
                 </a>
-              </ListItem>
-              <ListItem className={classes.navListItem}>
+              </NavLink>
+              <NavLink>
                 <a href="/about" className={classes.navLink}>
                   Our Story
                 </a>
-              </ListItem>
-              <ListItem className={classes.navListItem}>Giving Back</ListItem>
-              <ListItem className={classes.navListItem}>Testimonals</ListItem>
+              </NavLink>
+              {/* <NavLink>Giving Back</NavLink>
+              <NavLink>Testimonals</NavLink> */}
             </List>
           </Grid>
         </Toolbar>
