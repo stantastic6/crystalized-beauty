@@ -10,63 +10,53 @@ import NkechiImage from '../assets/images/Nkechi.jpg';
 
 export interface Product {
   name: string;
-  description: string;
   url: string;
   price: number;
 }
 
 export const products: Product[] = [
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: 'Raw Virgin Straight',
     url: HaleyImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: 'Raw Virgin Body Wave',
     url: DeZhanaImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: 'Raw Virgin Spanish Wave',
     url: CamilaImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: 'Raw Virgin Kinky Curly',
     url: NkechiImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: 'Raw Virgin Kinky Straight',
     url: LeslieImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: '100% Human Indian Straight',
     url: ChenImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: '100% Human Indian Body Wave',
     url: KirrileeImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: '100% Human Indian Curly',
     url: CrystalImage,
     price: 5000,
   },
   {
-    name: 'Product Name',
-    description: 'Product description',
+    name: '100% Human Indian Deep Wave',
     url: BriannaImage,
     price: 5000,
   },

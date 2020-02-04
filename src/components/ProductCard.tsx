@@ -25,17 +25,14 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const ProductCard: React.FC<Product> = ({ name, description, price, url }) => {
+const ProductCard: React.FC<Product> = ({ name, price, url }) => {
   const classes = useStyles();
   const formattedPrice: string = (price / 100).toFixed(2);
 
   return (
     <Card className={classes.card}>
       <CardMedia className={classes.productImage} image={url} />
-      <CardContent className={classes.description}>
-        {name} <br />
-        {description}
-      </CardContent>
+      <CardContent className={classes.description}>{name}</CardContent>
       <CardContent className={classes.price}>${formattedPrice}</CardContent>
     </Card>
   );
