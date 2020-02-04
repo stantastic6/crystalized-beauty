@@ -7,11 +7,9 @@ import background from './assets/images/rainbow_bg.jpg';
 import styled from 'styled-components';
 
 const AppContainer = styled.div`
-  background-image: url(${background});
-  background-repeat: round;
+  background: url(${background}) no-repeat center center;
+  background-size: cover;
 `;
-
-// import AdminDashbaord from './admin/AdminDashboard';
 
 const App: React.FC = () => {
   return (
@@ -22,9 +20,6 @@ const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={OurStory} />
-            {/* <Route path="/admin" exact>
-          <AdminDashbaord />
-        </Route> */}
           </Switch>
         </Router>
       </AppContainer>

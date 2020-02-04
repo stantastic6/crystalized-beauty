@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/logos/logo.png';
 import styled from 'styled-components';
 
 const useStyles = makeStyles(theme => ({
