@@ -52,7 +52,12 @@ const Home: React.FC = () => {
       <Grid container className={classes.container}>
         {products.map((product, index) => (
           <Grid item xs={12} sm={4} key={index} className={classes.productList}>
-            <ProductCard name={product.name} price={product.price} url={product.url} key={index} />
+            <ProductCard
+              name={product.name}
+              prices={product.prices}
+              url={product.url}
+              key={index}
+            />
           </Grid>
         ))}
         <Grid container justify="center" alignItems="center">
