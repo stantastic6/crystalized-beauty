@@ -31,19 +31,21 @@ const OurStory: React.FC = () => {
         <Grid container justify="center" className={classes.bodyGrid}>
           <Grid item xs={6}>
             <Typography variant="body1" gutterBottom>
-              Crystalized Beauty Enterprises began as the brainchild of a pair best friends who decided to launch a
-              business together based on their passion of exploring both inner and outer beauty. in the making,
-              Crystalized Hair focuses on providing quality products and services to all clients, while cultivating an
-              environment where self-discovery, purpose finding, and self-acceptance flourishes.
+              Crystalized Beauty Enterprises began as the brainchild of a pair best friends who
+              decided to launch a business together based on their passion of exploring both inner
+              and outer beauty. in the making, Crystalized Hair focuses on providing quality
+              products and services to all clients, while cultivating an environment where
+              self-discovery, purpose finding, and self-acceptance flourishes.
             </Typography>
           </Grid>
         </Grid>
         <Grid container justify="center" className={classes.bodyGrid}>
           <Grid item xs={6}>
             <Typography variant="body1" gutterBottom>
-              At Crystalized Hair, your mane won’t be the only shining and glorious part of you – the same shall be for
-              your soul. We invite you to shop with us, and discover not only your favorite hair texture or length, but
-              also your dreams, visions and personal sense of beauty.
+              At Crystalized Hair, your mane won’t be the only shining and glorious part of you –
+              the same shall be for your soul. We invite you to shop with us, and discover not only
+              your favorite hair texture or length, but also your dreams, visions and personal sense
+              of beauty.
             </Typography>
           </Grid>
         </Grid>
