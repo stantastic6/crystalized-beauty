@@ -51,7 +51,7 @@ const Home: React.FC = () => {
       </Grid>
       <Grid container className={classes.container}>
         {products.map((product, index) => (
-          <Grid item xs={12} sm={4} key={index} className={classes.productList}>
+          <Grid item xs={12} sm={6} lg={4} key={index} className={classes.productList}>
             <ProductCard
               name={product.name}
               prices={product.prices}
