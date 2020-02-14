@@ -1,12 +1,12 @@
-import BriannaImage from '../assets/images/Brianna.jpg';
-import CamilaImage from '../assets/images/Camila.jpg';
-import ChenImage from '../assets/images/Chen.jpg';
-import CrystalImage from '../assets/images/Crystal.jpg';
-import DeZhanaImage from '../assets/images/DeZhana.jpg';
-import HaleyImage from '../assets/images/Haley.jpg';
-import KirrileeImage from '../assets/images/Kirrilee.jpg';
-import LeslieImage from '../assets/images/Leslie.jpg';
-import NkechiImage from '../assets/images/Nkechi.jpg';
+import BriannaImage from '../assets/images/brianna.jpg';
+import CamilaImage from '../assets/images/camila.jpg';
+import ChenImage from '../assets/images/chen.jpg';
+import CrystalImage from '../assets/images/crystal.jpg';
+import DeZhanaImage from '../assets/images/dezhana.jpg';
+import HaleyImage from '../assets/images/haley.jpg';
+import KirrileeImage from '../assets/images/kirrilee.jpg';
+import LeslieImage from '../assets/images/leslie.jpg';
+import NkechiImage from '../assets/images/nkechi.jpg';
 
 interface ProductPrice {
   length: number;
