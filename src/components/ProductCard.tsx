@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
     minWidth: 248,
     marginRight: 50,
     marginBottom: 50,
-    // overflowY: 'scroll',
+    overflowY: 'scroll',
   },
   productImage: {
     height: 0,
@@ -39,6 +39,12 @@ const useStyles = makeStyles(theme => ({
   contentContainer: {
     position: 'relative',
     padding: 0,
+  },
+  pricingHeader: {
+    display: 'flex',
+    justifyContent: 'center',
+    paddingTop: '12px',
+    fontWeight: 600,
   },
   pricesContainer: {
     position: 'absolute',
@@ -82,9 +88,12 @@ const ProductCard: React.FC<Product> = ({ name, prices, url }) => {
           className={classes.pricesContainer}
           pose={imageVisible ? 'exit' : 'enter'}
         >
+          <Grid item sm={12} className={classes.pricingHeader}>
+            Pricing (per bundle):
+          </Grid>
           {prices.map((price, index) => (
             <Grid item sm={6} key={index} className={classes.price}>
-              {`${price.length}" ${formattedPrice(price.amount)}`}
+              {`${price.length}": ${formattedPrice(price.amount)}`}
             </Grid>
           ))}
         </FadeableProductPrices>
@@ -97,14 +106,3 @@ const ProductCard: React.FC<Product> = ({ name, prices, url }) => {
 };
 
 export default ProductCard;
-
-// products.map((product, index) => (
-//   <Grid item xs={12} sm={4} key={index} className={classes.productList}>
-//     <ProductCard
-//       name={product.name}
-//       prices={product.prices}
-//       url={product.url}
-//       key={index}
-//     />
-//   </Grid>
-// ))}
