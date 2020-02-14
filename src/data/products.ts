@@ -1,12 +1,21 @@
-import BriannaImage from '../assets/images/brianna.jpg';
-import CamilaImage from '../assets/images/camila.jpg';
-import ChenImage from '../assets/images/chen.jpg';
-import CrystalImage from '../assets/images/crystal.jpg';
-import DeZhanaImage from '../assets/images/dezhana.jpg';
-import HaleyImage from '../assets/images/haley.jpg';
-import KirrileeImage from '../assets/images/kirrilee.jpg';
-import LeslieImage from '../assets/images/leslie.jpg';
-import NkechiImage from '../assets/images/nkechi.jpg';
+const BriannaImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/brianna_rk0wk';
+const CamilaImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/camila_gjzrtx';
+const ChenImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/chen_zja5hz';
+const CrystalImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/crystal_gpcrtu';
+const DeZhanaImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/dezhana_uvwumd';
+const HaleyImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/haley_xa6hww';
+const KirrileeImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/kirrilee_wv39gd';
+const LeslieImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/leslie_mr9nuk';
+const NkechiImage =
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/nkechi_grdwzs';
 
 interface ProductPrice {
   length: number;
