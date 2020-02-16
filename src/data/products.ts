@@ -1,5 +1,5 @@
 const BriannaImage =
-  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/brianna_rk0wk';
+  'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/brianna_rkw0wk';
 const CamilaImage =
   'https://res.cloudinary.com/crystalized-beauty/image/upload/v1581695407/crystalized-beauty/camila_gjzrtx';
 const ChenImage =
