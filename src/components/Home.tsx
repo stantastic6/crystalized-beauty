@@ -20,7 +20,10 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
   },
   productList: {
-    paddingLeft: 20,
+    paddingLeft: 50,
+    [theme.breakpoints.down('xs')]: {
+      paddingLeft: 20,
+    },
   },
   logoContainer: {
     textAlign: 'center',

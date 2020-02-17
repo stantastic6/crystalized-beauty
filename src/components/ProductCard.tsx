@@ -28,6 +28,9 @@ const useStyles = makeStyles(theme => ({
     marginRight: 50,
     marginBottom: 50,
     overflowY: 'scroll',
+    [theme.breakpoints.down('xs')]: {
+      marginRight: 80,
+    },
   },
   productImage: {
     height: 0,
