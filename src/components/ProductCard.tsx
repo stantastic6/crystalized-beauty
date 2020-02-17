@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: 50,
     overflowY: 'scroll',
     [theme.breakpoints.down('xs')]: {
-      marginRight: 80,
+      marginRight: 20,
     },
   },
   productImage: {
@@ -91,11 +91,11 @@ const ProductCard: React.FC<Product> = ({ name, prices, url }) => {
           className={classes.pricesContainer}
           pose={imageVisible ? 'exit' : 'enter'}
         >
-          <Grid item sm={12} className={classes.pricingHeader}>
+          <Grid item xs={12} className={classes.pricingHeader}>
             Pricing (per bundle):
           </Grid>
           {prices.map((price, index) => (
-            <Grid item sm={6} key={index} className={classes.price}>
+            <Grid item xs={6} key={index} className={classes.price}>
               {`${price.length}": ${formattedPrice(price.amount)}`}
             </Grid>
           ))}
