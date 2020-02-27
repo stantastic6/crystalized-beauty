@@ -34,67 +34,67 @@ export const products: Product[] = [
     prices: [
       {
         length: 10,
-        amount: 7700,
+        amount: 8700,
       },
       {
         length: 12,
-        amount: 8200,
+        amount: 9200,
       },
       {
         length: 14,
-        amount: 8600,
-      },
-      {
-        length: 16,
         amount: 9600,
       },
       {
+        length: 16,
+        amount: 10600,
+      },
+      {
         length: 18,
-        amount: 9800,
+        amount: 10800,
       },
       {
         length: 20,
-        amount: 10400,
+        amount: 11400,
       },
       {
         length: 22,
-        amount: 11500,
+        amount: 12500,
       },
       {
         length: 24,
-        amount: 11800,
+        amount: 12800,
       },
       {
         length: 26,
-        amount: 12300,
+        amount: 13300,
       },
       {
         length: 28,
-        amount: 12700,
+        amount: 13700,
       },
       {
         length: 30,
-        amount: 13100,
-      },
-      {
-        length: 32,
         amount: 14100,
       },
       {
+        length: 32,
+        amount: 15100,
+      },
+      {
         length: 34,
-        amount: 14300,
+        amount: 15300,
       },
       {
         length: 36,
-        amount: 15000,
+        amount: 16000,
       },
       {
         length: 38,
-        amount: 15200,
+        amount: 16200,
       },
       {
         length: 40,
-        amount: 15500,
+        amount: 16500,
       },
     ],
   },
@@ -104,67 +104,67 @@ export const products: Product[] = [
     prices: [
       {
         length: 10,
-        amount: 7700,
+        amount: 8700,
       },
       {
         length: 12,
-        amount: 8200,
+        amount: 9200,
       },
       {
         length: 14,
-        amount: 8600,
-      },
-      {
-        length: 16,
         amount: 9600,
       },
       {
+        length: 16,
+        amount: 10600,
+      },
+      {
         length: 18,
-        amount: 9800,
+        amount: 10800,
       },
       {
         length: 20,
-        amount: 10400,
+        amount: 11400,
       },
       {
         length: 22,
-        amount: 11500,
+        amount: 12500,
       },
       {
         length: 24,
-        amount: 11800,
+        amount: 12800,
       },
       {
         length: 26,
-        amount: 12300,
+        amount: 13300,
       },
       {
         length: 28,
-        amount: 12700,
+        amount: 13700,
       },
       {
         length: 30,
-        amount: 13100,
-      },
-      {
-        length: 32,
         amount: 14100,
       },
       {
+        length: 32,
+        amount: 15100,
+      },
+      {
         length: 34,
-        amount: 14300,
+        amount: 15300,
       },
       {
         length: 36,
-        amount: 15000,
+        amount: 16000,
       },
       {
         length: 38,
-        amount: 15200,
+        amount: 16200,
       },
       {
         length: 40,
-        amount: 15500,
+        amount: 16500,
       },
     ],
   },
@@ -174,43 +174,43 @@ export const products: Product[] = [
     prices: [
       {
         length: 12,
-        amount: 8500,
+        amount: 9500,
       },
       {
         length: 14,
-        amount: 8900,
+        amount: 9900,
       },
       {
         length: 16,
-        amount: 9800,
+        amount: 10800,
       },
       {
         length: 18,
-        amount: 10300,
+        amount: 11300,
       },
       {
         length: 20,
-        amount: 10900,
+        amount: 11900,
       },
       {
         length: 22,
-        amount: 12100,
+        amount: 13100,
       },
       {
         length: 24,
-        amount: 12500,
+        amount: 13500,
       },
       {
         length: 26,
-        amount: 12900,
+        amount: 13900,
       },
       {
         length: 28,
-        amount: 13300,
+        amount: 14300,
       },
       {
         length: 30,
-        amount: 13700,
+        amount: 14700,
       },
     ],
   },
@@ -220,43 +220,43 @@ export const products: Product[] = [
     prices: [
       {
         length: 12,
-        amount: 8500,
+        amount: 9500,
       },
       {
         length: 14,
-        amount: 8900,
+        amount: 9900,
       },
       {
         length: 16,
-        amount: 9800,
+        amount: 10800,
       },
       {
         length: 18,
-        amount: 10300,
+        amount: 11300,
       },
       {
         length: 20,
-        amount: 10900,
+        amount: 11900,
       },
       {
         length: 22,
-        amount: 12100,
+        amount: 13100,
       },
       {
         length: 24,
-        amount: 12500,
+        amount: 13500,
       },
       {
         length: 26,
-        amount: 12900,
+        amount: 13900,
       },
       {
         length: 28,
-        amount: 13300,
+        amount: 14300,
       },
       {
         length: 30,
-        amount: 13700,
+        amount: 14700,
       },
     ],
   },
@@ -266,43 +266,43 @@ export const products: Product[] = [
     prices: [
       {
         length: 12,
-        amount: 8500,
+        amount: 10500,
       },
       {
         length: 14,
-        amount: 8900,
-      },
-      {
-        length: 16,
-        amount: 9800,
-      },
-      {
-        length: 18,
-        amount: 10300,
-      },
-      {
-        length: 20,
         amount: 10900,
       },
       {
+        length: 16,
+        amount: 11800,
+      },
+      {
+        length: 18,
+        amount: 11300,
+      },
+      {
+        length: 20,
+        amount: 11900,
+      },
+      {
         length: 22,
-        amount: 12100,
+        amount: 13100,
       },
       {
         length: 24,
-        amount: 12500,
+        amount: 13500,
       },
       {
         length: 26,
-        amount: 12900,
+        amount: 13900,
       },
       {
         length: 28,
-        amount: 13300,
+        amount: 14300,
       },
       {
         length: 30,
-        amount: 13700,
+        amount: 14700,
       },
     ],
   },
@@ -312,47 +312,47 @@ export const products: Product[] = [
     prices: [
       {
         length: 10,
-        amount: 9900,
+        amount: 10900,
       },
       {
         length: 12,
-        amount: 10600,
+        amount: 11600,
       },
       {
         length: 14,
-        amount: 10800,
+        amount: 11800,
       },
       {
         length: 16,
-        amount: 11300,
+        amount: 12300,
       },
       {
         length: 18,
-        amount: 12600,
-      },
-      {
-        length: 20,
-        amount: 12800,
-      },
-      {
-        length: 22,
-        amount: 13200,
-      },
-      {
-        length: 24,
         amount: 13600,
       },
       {
+        length: 20,
+        amount: 13800,
+      },
+      {
+        length: 22,
+        amount: 14200,
+      },
+      {
+        length: 24,
+        amount: 14600,
+      },
+      {
         length: 26,
-        amount: 14000,
+        amount: 15000,
       },
       {
         length: 28,
-        amount: 14400,
+        amount: 15400,
       },
       {
         length: 30,
-        amount: 14800,
+        amount: 15800,
       },
     ],
   },
@@ -362,47 +362,47 @@ export const products: Product[] = [
     prices: [
       {
         length: 10,
-        amount: 9600,
-      },
-      {
-        length: 12,
-        amount: 10300,
-      },
-      {
-        length: 14,
         amount: 10600,
       },
       {
+        length: 12,
+        amount: 11300,
+      },
+      {
+        length: 14,
+        amount: 11600,
+      },
+      {
         length: 16,
-        amount: 11000,
+        amount: 12000,
       },
       {
         length: 18,
-        amount: 12300,
+        amount: 13300,
       },
       {
         length: 20,
-        amount: 12600,
+        amount: 13600,
       },
       {
         length: 22,
-        amount: 13000,
+        amount: 14000,
       },
       {
         length: 24,
-        amount: 13400,
+        amount: 14400,
       },
       {
         length: 26,
-        amount: 13800,
+        amount: 14800,
       },
       {
         length: 28,
-        amount: 14300,
+        amount: 15300,
       },
       {
         length: 30,
-        amount: 14600,
+        amount: 15600,
       },
     ],
   },
@@ -412,47 +412,47 @@ export const products: Product[] = [
     prices: [
       {
         length: 10,
-        amount: 10600,
+        amount: 11600,
       },
       {
         length: 12,
-        amount: 11200,
+        amount: 12200,
       },
       {
         length: 14,
-        amount: 11400,
+        amount: 12400,
       },
       {
         length: 16,
-        amount: 12000,
+        amount: 13000,
       },
       {
         length: 18,
-        amount: 13200,
-      },
-      {
-        length: 20,
-        amount: 13300,
-      },
-      {
-        length: 22,
-        amount: 13800,
-      },
-      {
-        length: 24,
         amount: 14200,
       },
       {
+        length: 20,
+        amount: 14300,
+      },
+      {
+        length: 22,
+        amount: 14800,
+      },
+      {
+        length: 24,
+        amount: 15200,
+      },
+      {
         length: 26,
-        amount: 14400,
+        amount: 15400,
       },
       {
         length: 28,
-        amount: 15000,
+        amount: 16000,
       },
       {
         length: 30,
-        amount: 15300,
+        amount: 16300,
       },
     ],
   },
@@ -462,47 +462,47 @@ export const products: Product[] = [
     prices: [
       {
         length: 10,
-        amount: 10100,
+        amount: 11100,
       },
       {
         length: 12,
-        amount: 10800,
+        amount: 11800,
       },
       {
         length: 14,
-        amount: 11000,
+        amount: 12000,
       },
       {
         length: 16,
-        amount: 11600,
+        amount: 12600,
       },
       {
         length: 18,
-        amount: 12800,
-      },
-      {
-        length: 20,
-        amount: 13000,
-      },
-      {
-        length: 22,
-        amount: 13400,
-      },
-      {
-        length: 24,
         amount: 13800,
       },
       {
+        length: 20,
+        amount: 14000,
+      },
+      {
+        length: 22,
+        amount: 14400,
+      },
+      {
+        length: 24,
+        amount: 14800,
+      },
+      {
         length: 26,
-        amount: 14200,
+        amount: 15200,
       },
       {
         length: 28,
-        amount: 14600,
+        amount: 15600,
       },
       {
         length: 30,
-        amount: 15000,
+        amount: 16000,
       },
     ],
   },
