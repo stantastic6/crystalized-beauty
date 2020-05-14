@@ -33,7 +33,7 @@
     "react-dom": "^16.12.0",
     "react-pose": "^4.0.10",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "3.4.1",
     "styled-components": "^5.0.0",
     "typescript": "^3.7.4"
   },
@@ -66,5 +66,8 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "prettier": "^1.19.1"
+  },
+  "resolutions": {
+    "yargs-parser": "^18.1.2"
   }
 }
